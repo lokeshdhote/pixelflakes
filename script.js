@@ -70,7 +70,7 @@ var third = document.querySelector("#third")
  var nine = document.querySelector("#nine")
  var ten  = document.querySelector("#ten")
 
-function openImg(){
+
     image.addEventListener("click",function(){
         document.querySelector("#text").style.opacity="0";
     document.querySelector("#para").style.opacity="0";
@@ -123,10 +123,9 @@ function openImg(){
     })
     
     
-}
 
-openImg()
-function closeImg(){
+
+
     close.addEventListener("click",function(){
    
         document.querySelector("#text").style.opacity="1";
@@ -176,5 +175,4 @@ function closeImg(){
     
     })
 
-}
-closeImg()
+
