@@ -53,13 +53,11 @@ var tl3 =gsap.timeline({ scrollTrigger:{
 }   
 })
 
-var images =document.querySelector("#image")
+
 
 var close =document.querySelector("#close")
 var logo = document.querySelector("#logo")
-images.addEventListener("click",function(){
-    
-})
+
 var image = document.querySelector("#image")
 var first = document.querySelector("#first")
 var second = document.querySelector("#second")
@@ -73,7 +71,7 @@ var third = document.querySelector("#third")
  var ten  = document.querySelector("#ten")
 
 function openImg(){
-    image.addEventListener("click ",function(){
+    image.addEventListener("click",function(){
         document.querySelector("#text").style.opacity="0";
     document.querySelector("#para").style.opacity="0";
     close.style.opacity="1"
