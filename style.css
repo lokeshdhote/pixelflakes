@@ -54,22 +54,32 @@ padding: 2vw 3vw;
     font-weight: 200;
     color: #040508;
 }
-#logo{
+#navpart3{
     top: 3%;
-  
-    right: 1%;
-background-color: #040508;
     position: fixed;
+    right: 1.2%;
+    display: flex;
+}
+#logo{
+  background-color: #040508;
     font-size:2vw;
     font-weight: 100;
     width: 3vw;
     height: 2.7vw;
     text-align: center;
     color: #E4DDD4;
+    position: relative;
 z-index: 1;
+}
+#close{
+    opacity: 0;
+    color: #fff;
+    font-size:2.5vw;
+    font-weight: 100;
+    
+
 
 }
-
 #textcontent{
     position: fixed;
     padding: 12vw 9vw;
@@ -291,13 +301,15 @@ color: #aeaca9;
 #page4{
     height: 100%;
     width: 100%;
+    /* overflow: hidden; */
 position: relative;
+
 }
 #content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 22vw 2vw;
+    padding: 21vw 2vw;
 color: #E4DDD4;
 
 background-color: #242320;
@@ -310,27 +322,121 @@ text-transform: capitalize;
     font-family: At Hauss Std  ;
 }
 #first{
+   /* right: 1%;
+   top: 0.5%;
+   height: 30%; */
+    position: absolute;
+    z-index: 3;
+    left: 36%;
+    
+    top: 35%;
+    height: 30vw; 
+}
+
+#second{
+    /* left: 38%;
+    top: 30%;
+    height: 30%; */
+    height: 20vw;
+    left: 33%;
+    top: 45%;
     position: absolute;
     z-index: 2;
-    left: 36%;
-
-    top: 35%;
-    height: 30vw;
-}
-#second{
-left: 33%;
-
-    top: 45%;
-    height: 20vw;
-    position: absolute;
-    z-index: 1;
 }
 #third{
-    left: 32%;
-
-    top: 40%;
     height: 24vw;
+    /* left: 0;
+    top: 0%;
+
+    height: 30%; */
+    left: 32%;
+z-index: 1;
+    top: 40%;
     position: absolute;
+}
+#fourth{
+    height: 15vw;
+    /* height: 40%;
+    left: 7%;
+    top: 32%; */
+
+
+
+/* 
+    left: 32%;
+    top: 40%; */
+    position: absolute;
+}
+#five{
+    height: 15vw;
+    /* height: 30%;
+   right: 0; 
+   bottom: 2%; */
+
+   
+    left: 32%;
+    top: 40%;
+    position: absolute;
+}
+#six{
+    height: 15vw;
+    /* height: 30%; */
+    /* right: 19%;
+    bottom: 33%; */
+
+
+
+    left: 32%;
+    top: 40%;
+    position: absolute;
+
+}
+#seven{
+    height: 15vw;
+    /* height: 30%;
+    left: 48%;
+top: 65%; */
+
+
+    left: 32%;
+    top: 40%;
+    position: absolute;
+
+}
+#eight{
+    height: 15vw;
+    /* height: 30%;
+    left: 25%;
+    top: 12%; */
+
+
+
+    left: 32%;
+    top: 40%;
+    position: absolute;
+}
+#nine{
+    height: 15vw;
+    /* height: 30%; */
+    
+    /* bottom: 1%;
+    left: 2%; */
+
+    left: 32%;
+    top: 40%;
+    position: absolute;
+}
+#ten{
+    height: 15vw;
+    /* height: 30%; */
+    /* left: 65%;
+    top: 5%; */
+
+
+    left: 32%;
+    top: 40%;
+    position: absolute;
+
 }
 #para h5{
     font-size: 1.2vw;
